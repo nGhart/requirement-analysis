@@ -106,6 +106,27 @@ Non-functional requirements define how the system performs its functions — foc
 
 - **Data Consistency**: The system must prevent double-booking of the same room.
 
+## Use Case Diagrams
 
+Use Case Diagrams are visual representations that illustrate the interaction between users (actors) and system functionalities (use cases). They help identify the key processes in a system and show how different roles interact with those processes.
 
+### Benefits of Use Case Diagrams:
 
+- **Clarity**: They simplify complex system interactions, making it easy to understand how the system works at a glance.
+
+- **Communication**: They provide a common language between technical and non-technical stakeholders.
+
+- **Scope Definition**: They help define system boundaries and ensure that all user interactions are captured.
+
+- **Requirement Validation**: They serve as a reference to verify if all functional requirements are addressed.
+
+### Use Case Diagram
+[Diagram](https://iili.io/K4ue9Uu.png)
+
+### Actors in the Booking System
+
+**Guest**: Searches, books, makes payment and manages bookings.
+
+**Host**: Manages bookings, availability, and pricing.
+
+**Management Company**: Review host properties, mediates conflicts, and ensures data integrity.
