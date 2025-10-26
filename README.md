@@ -38,6 +38,10 @@ Good requirement analysis streamlines development, improves estimation accuracy,
 Thoroughly analyzed and validated requirements lead to software that truly meets user expectations and business objectives.  
 When the team clearly understands *what* to build and *why*, the result is a more reliable, usable, and high-quality product.
 
+### **4. Supports Better Testing and Validation**
+Requirements provide the basis for creating test cases and acceptance criteria.  
+This makes it easier to verify that each feature works as intended and that the final product fulfills its intended purpose.
+
 ## Key Activities in Requirement Analysis
 
 Requirement Analysis involves several structured activities that help transform stakeholder needs into clear and actionable requirements.  
@@ -68,9 +72,40 @@ Below are the **five key activities** involved in this process:
   - It involves reviews, walkthroughs, and prototype testing to verify correctness and completeness.
   - The aim is to ensure that the final software will meet user expectations and business objectives.
 
+## Types of Requirements
 
-### **4. Supports Better Testing and Validation**
-Requirements provide the basis for creating test cases and acceptance criteria.  
-This makes it easier to verify that each feature works as intended and that the final product fulfills its intended purpose.
+### Functional Requirements
+
+Functional requirements define what the system should do — the specific features, operations, and behaviors the application must support.
+
+#### Examples for a Hotel Booking Management System:
+
+- **Search Functionality**: Users should be able to search for available rooms by location, date, and number of guests.
+
+- **Booking Management**: The system should allow users to select a room, book it, and make payments securely.
+
+- **Host Management**: Hotel managers should be able to update room availability, pricing, and details.
+
+- **Notifications**: The system should send booking confirmations and cancellation messages to users and hotel managers.
+
+- **User Profile Management**: Users should be able to view and manage their bookings and personal details.
+
+### Non-Functional Requirements
+
+Non-functional requirements define how the system performs its functions — focusing on performance, security, reliability, and usability.
+
+#### Examples for a Hotel Booking Management System:
+
+- **Performance**: The system should load search results in under 500 milliseconds.
+
+- **Scalability**: It should handle thousands of concurrent users during peak times.
+
+- **Security**: All user credentials and payment details must be encrypted and securely stored.
+
+- **Availability**: The system should maintain 99.9% uptime to ensure continuous booking access.
+
+- **Data Consistency**: The system must prevent double-booking of the same room.
+
+
 
 
