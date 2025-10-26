@@ -121,7 +121,7 @@ Use Case Diagrams are visual representations that illustrate the interaction bet
 - **Requirement Validation**: They serve as a reference to verify if all functional requirements are addressed.
 
 ### Use Case Diagram
-[Diagram](https://iili.io/K4ue9Uu.png)
+![Use Case Diagram](https://iili.io/K4ue9Uu.png)
 
 ### Actors in the Booking System
 
@@ -130,3 +130,35 @@ Use Case Diagrams are visual representations that illustrate the interaction bet
 **Host**: Manages bookings, availability, and pricing.
 
 **Management Company**: Review host properties, mediates conflicts, and ensures data integrity.
+
+## Acceptance Criteria
+
+**Acceptance Criteria** are specific, measurable conditions that a software feature must meet to be considered complete and accepted by the user or client. They define the boundaries of a user story or requirement and ensure that everyone involved understands what “done” means.
+
+### Importance of Acceptance Criteria:
+
+**Clarity**: Provides clear expectations of what each feature should achieve.
+
+**Quality Assurance**: Helps testers verify that a feature works as intended.
+
+**Alignment**: Ensures developers, testers, and stakeholders share the same understanding of the requirement.
+
+**Traceability**: Links each requirement to a verifiable outcome, reducing ambiguity.
+
+### Checkout Feature in the Booking Management System:
+
+**Feature: Checkout**
+
+#### Acceptance Criteria:
+
+- The user can view a summary of their booking before confirming payment.
+
+- The system should calculate the total cost, including taxes and fees.
+
+- The user must be able to select a payment method (debit card or mobile money).
+
+- A confirmation message should display upon successful payment.
+
+- The system must generate and send a booking confirmation email to the user.
+
+- If payment fails, the system should display an error message and allow the user to retry.
