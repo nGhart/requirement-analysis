@@ -2,7 +2,6 @@
 A project helps define and organize requirements for a booking system, building a clear plan for software development.
 
 ## What is Requirement Analysis?
----
 
 **Requirement Analysis** is the process of gathering, analyzing, validating, and documenting what a software system must do and the conditions it must meet. It ensures that developers build the right product that meets user and business needs.
 
@@ -24,7 +23,6 @@ Well-defined and validated requirements lead to a product that meets user needs,
 Test cases are built around the documented requirements, ensuring each function can be verified against its intended purpose.
 
 ## Why is Requirement Analysis Important?
----
 
 Requirement Analysis is a critical phase in the **Software Development Lifecycle (SDLC)** because it ensures that the software being built aligns with user needs, business goals, and technical feasibility. Without it, projects risk failure due to unclear objectives or misaligned expectations.
 
@@ -39,6 +37,37 @@ Good requirement analysis streamlines development, improves estimation accuracy,
 ### **3. Ensures Product Quality and User Satisfaction**
 Thoroughly analyzed and validated requirements lead to software that truly meets user expectations and business objectives.  
 When the team clearly understands *what* to build and *why*, the result is a more reliable, usable, and high-quality product.
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities that help transform stakeholder needs into clear and actionable requirements.  
+Below are the **five key activities** involved in this process:
+
+- ### **1. Requirement Gathering**
+  - This is the initial step where information about the project and user expectations is collected.
+  - It involves identifying stakeholders and using tools such as surveys, interviews, and questionnaires.
+  - The goal is to collect raw data about what the system should achieve.
+
+- ### **2. Requirement Elicitation**
+  - Elicitation focuses on understanding and refining the gathered information.
+  - It includes direct discussions, brainstorming sessions, and observation of user workflows.
+  - The main objective is to uncover hidden needs, clarify assumptions, and resolve conflicts among stakeholders.
+
+- ### **3. Requirement Documentation**
+  - All requirements are recorded in a structured and organized format, such as a Software Requirement Specification (SRS) document.
+  - Documentation ensures clarity and serves as a reference point for designers, developers, and testers.
+  - It includes both **functional** and **non-functional** requirements.
+
+- ### **4. Requirement Analysis and Modeling**
+  - This activity involves analyzing, prioritizing, and modeling requirements to ensure they are feasible, consistent, and aligned with project goals.
+  - Techniques like **use case diagrams**, **data flow diagrams (DFDs)**, and **entity-relationship diagrams (ERDs)** are often used.
+  - The outcome is a clear representation of how the system will function and interact with users or other systems.
+
+- ### **5. Requirement Validation**
+  - Validation confirms that the documented requirements accurately reflect stakeholder needs.
+  - It involves reviews, walkthroughs, and prototype testing to verify correctness and completeness.
+  - The aim is to ensure that the final software will meet user expectations and business objectives.
+
 
 ### **4. Supports Better Testing and Validation**
 Requirements provide the basis for creating test cases and acceptance criteria.  
